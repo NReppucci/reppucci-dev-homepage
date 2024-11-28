@@ -77,20 +77,21 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
+          {/* Desktop Navbar Links */}
+          <LinkItem href="/" path={path}>
+            About
+          </LinkItem>
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
-
-          {/* Corrected Resume Link */}
           <LinkItem
-            href="/resume.pdf" // Now pointing directly to resume.pdf
+            href="/resume.pdf"
             path={path}
-            target="_blank" // Open in new tab
+            target="_blank"
             colorScheme="teal"
           >
             Resume
           </LinkItem>
-
           <LinkItem
             target="_blank"
             href="https://github.com/NReppucci/reppucci-dev-homepage"
@@ -123,14 +124,15 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/projects">
                   Projects
                 </MenuItem>
+                <MenuItem as={Link} href="/resume.pdf" target="_blank">
+                  Resume
+                </MenuItem>
                 <MenuItem
                   as={Link}
                   href="https://github.com/NReppucci/reppucci-dev-homepage"
+                  target="_blank"
                 >
                   View Source
-                </MenuItem>
-                <MenuItem as={Link} href="/resume.pdf" target="_blank">
-                  Resume
                 </MenuItem>
               </MenuList>
             </Menu>
