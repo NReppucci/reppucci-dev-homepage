@@ -31,7 +31,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an electrical engineer based in America!
+        Hello, I&apos;m an electrical engineer based in Maine, USA!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -39,7 +39,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Nate Reppucci
           </Heading>
-          <p>Electrical Engineer ( Maker / Designer / Artist )</p>
+          <p>Electrical Engineer {/*( Maker / Designer )*/}</p>
         </Box>
         <Box
           flexShrink={0}
@@ -98,8 +98,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
-          Graduated with a Master&apos;s in Electrical and Computer Engineering
-          from Worcester Polytechnic Institute
+          Completed a Master&apos;s in Electrical and Computer Engineering at
+          Worcester Polytechnic Institute
         </BioSection>
         <BioSection>
           <BioYear>Now:</BioYear>
@@ -117,14 +117,14 @@ const Home = () => (
           <Link href="https://hillhousetheband.com/" target="_blank">
             Playing Saxophone
           </Link>
-          , Board Games, Video Games,{' '}
+          ,{' '}
           <Link
             href="https://app.thestorygraph.com/profile/njreppucci"
             target="_blank"
           >
             Reading
           </Link>
-          , 3D Printing, Graphic Design, Running
+          , Board Games, Video Games, 3D Printing, Graphic Design, Running
         </Paragraph>
       </Section>
 
