@@ -80,6 +80,17 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
+
+          {/* Corrected Resume Link */}
+          <LinkItem
+            href="/resume.pdf" // Now pointing directly to resume.pdf
+            path={path}
+            target="_blank" // Open in new tab
+            colorScheme="teal"
+          >
+            Resume
+          </LinkItem>
+
           <LinkItem
             target="_blank"
             href="https://github.com/NReppucci/reppucci-dev-homepage"
@@ -117,6 +128,9 @@ const Navbar = props => {
                   href="https://github.com/NReppucci/reppucci-dev-homepage"
                 >
                   View Source
+                </MenuItem>
+                <MenuItem as={Link} href="/resume.pdf" target="_blank">
+                  Resume
                 </MenuItem>
               </MenuList>
             </Menu>
