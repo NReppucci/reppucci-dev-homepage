@@ -1,7 +1,7 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "reppucci-dev-homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Nate's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Nate Reppucci",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
@@ -23,7 +23,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "three": "^0.157.0"
+    "three": "^0.157.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "eslint": "^8.52.0",
