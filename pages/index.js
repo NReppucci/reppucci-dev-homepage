@@ -69,15 +69,15 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About
         </Heading>
         <Paragraph>
           Nate is an electrical engineer based in Maine, USA with a passion for
-          creative problem solving and bringing his ideas to life. He
-          specializes in analog circuits and power electronics and enjoys using
-          his skills to develop custom hardware. Outside of work, he enjoys
-          playing the saxophone and reading. Currently, he is working as a IC
-          Verification Engineer for Infineon Technologies AG.
+          creative problem solving. He specializes in analog circuits and power
+          electronics and enjoys using his skills to develop custom hardware.
+          Outside of work, he enjoys playing saxophone and reading sci-fi and
+          fantasy novels. Currently, he is working as an IC Verification
+          Engineer for Infineon Technologies AG.
         </Paragraph>
       </Section>
 
@@ -87,16 +87,14 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2002</BioYear>
-          Born in Massachusetts, USA.
-        </BioSection>
-        <BioSection>
-          <BioYear>2020</BioYear>
-          Began studying Electrical and Computer Engineering at Worcester
-          Polytechnic Institute
+          Born in Massachusetts, USA
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
           Interned at Generac Clean Energy
+        </BioSection>
+        <BioSection>
+          <BioYear>2023</BioYear>
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
@@ -119,7 +117,7 @@ const Home = () => (
           <Link href="https://hillhousetheband.com/" target="_blank">
             Playing Saxophone
           </Link>
-          , Board & Video Games,{' '}
+          , Board Games, Video Games,{' '}
           <Link
             href="https://app.thestorygraph.com/profile/njreppucci"
             target="_blank"
