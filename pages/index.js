@@ -95,6 +95,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
+          Interned at Generac Clean Energy
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
@@ -118,13 +119,17 @@ const Home = () => (
             Playing Saxophone
           </Link>
           ,{' '}
-          <Link
-            href="https://app.thestorygraph.com/profile/njreppucci"
-            target="_blank"
-          >
+          <Link href="https://www.goodreads.com/njreppucci " target="_blank">
             Reading
           </Link>
-          , Board Games, Video Games, 3D Printing, Graphic Design, Running
+          ,{' '}
+          <Link
+            href="https://www.strava.com/athletes/129406148 "
+            target="_blank"
+          >
+            Running
+          </Link>
+          , Board Games, Video Games, 3D Printing, Graphic Design
         </Paragraph>
       </Section>
 
