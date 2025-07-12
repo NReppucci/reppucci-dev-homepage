@@ -31,7 +31,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an electrical engineer based in Maine, USA!
+        Hello, I&apos;m an electrical engineer based in Massachusetts, USA!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -75,9 +75,9 @@ const Home = () => (
           Nate is an electrical engineer based in Maine, USA with a passion for
           creative problem solving. He specializes in analog circuits and power
           electronics and enjoys using his skills to develop custom hardware.
-          Outside of work, he enjoys playing saxophone and reading sci-fi and
-          fantasy novels. Currently, he is working as an IC Verification
-          Engineer for Infineon Technologies AG.
+          Outside of work, he enjoys playing saxophone, running, and reading
+          sci-fi and fantasy novels. Currently, he is working as an IC
+          Verification Engineer for Infineon Technologies AG.
         </Paragraph>
       </Section>
 
