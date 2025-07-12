@@ -81,9 +81,9 @@ const Navbar = props => {
           <LinkItem href="/" path={path}>
             About
           </LinkItem>
-          <LinkItem href="/projects" path={path}>
+          {/* <LinkItem href="/projects" path={path}>
             Projects
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem
             href="/resume.pdf"
             path={path}
